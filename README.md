@@ -1,4 +1,3 @@
-
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0,1a1a2e,16213e,0f3460&height=200&section=header&text=Patience%20M.%20Fuglo&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Quantitative%20Researcher%20%C2%B7%20Systematic%20Trader%20%C2%B7%20Risk%20Modeler&descAlignY=58&descSize=16&descColor=a0aec0" width="100%"/>
 </div>
@@ -18,8 +17,8 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
-║  Certificate in Quantitative Finance · M.Sc. Software Engineering ·             ║
-║  B.Sc. Computer Science · Building systems where mathematics meets markets                        ║
+║  CQF · M.Sc. Software Engineering · B.Sc. Computer Science              ║
+║  Building systems where mathematics meets markets                        ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
