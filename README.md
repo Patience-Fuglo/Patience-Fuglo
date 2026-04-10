@@ -18,8 +18,8 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
-║  CQF · M.Sc. Software Engineering · B.Sc. Computer Science              ║
-║  Building systems where mathematics meets markets                        ║
+║  Cert in Quantitative Finance · M.Sc. Software Engineering · B.Sc. Computer Science              ║
+║   Building systems where mathematics meets markets                        ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
