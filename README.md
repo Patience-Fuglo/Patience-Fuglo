@@ -38,7 +38,7 @@ Currently founding **[Bullseye Alpha](https://bullseyealpha.com)** — a next-ge
 
 <div align="center">
 
-|  📁 12 Projects  |  📅 15+ Years Data  |  📈 Sharpe > 1.2 OOS  |  🔄 1,000+ Tickers  |
+|  📁 20+ Projects  |  📅 15+ Years Data  |  📈 Sharpe > 1.2 OOS  |  🔄 1,000+ Tickers  |
 |:---:|:---:|:---:|:---:|
 | Full quant stack covered | S&P 500 1962–2026 | Multi-factor strategies | Scalable pipelines |
 
@@ -126,6 +126,19 @@ Order Book Simulation
 <br>
 
 ## `$ projects --tier=all`
+
+---
+
+### ▌FEATURED — Live Alpha Research
+
+#### [`intraday-alpha-research`](https://github.com/Patience-Fuglo/intraday-alpha-research) — *Active Research*
+
+End-to-end systematic research framework: VWAP + RSI mean reversion hypothesis tested across AAPL and IWM on QuantConnect LEAN (Jan 2020 – Jun 2024). 5 versions, 2 instruments, full regime filtering (ATR + SMA200). Honest result: PSR < 1% — hypothesis closed, documented with expected value analysis. Covers Kyle lambda execution modeling, Deflated Sharpe Ratio (Lopez de Prado), purged walk-forward with embargo, Monte Carlo P&L simulation, and bootstrapped Sharpe CI. TradingView Pine Scripts included.
+
+![QuantConnect](https://img.shields.io/badge/QuantConnect_LEAN-1a1a2e?style=flat-square)
+![TradingView](https://img.shields.io/badge/TradingView-0f3460?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Research Log](https://img.shields.io/badge/Research_Log-16213e?style=flat-square)
 
 ---
 
@@ -244,6 +257,17 @@ Log-return analysis with Shapiro-Wilk (IBM: p=**1.45×10⁻²⁸**), AAPL vs IBM
 <tr>
 <td width="50%" valign="top">
 
+#### [`factor-modeling`](https://github.com/Patience-Fuglo/factor-modeling)
+
+CAPM, Fama-French 3-factor, Fama-French 5-factor, and Carhart Momentum factor models with walk-forward validation. **Sharpe 1.37, CAGR 31.5%** out-of-sample. Full factor exposure decomposition, alpha/beta attribution, and rolling factor loadings across market cycles.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Fama-French](https://img.shields.io/badge/Fama--French-1a1a2e?style=flat-square)
+![Walk-Forward](https://img.shields.io/badge/Walk--Forward-0f3460?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
 #### [`market-risk-factor-analysis-pca`](https://github.com/patience-fuglo/market-risk-factor-analysis-pca)
 
 PCA factor decomposition on **82,880 observations** (1962–2023, 10 tickers). **PC1 explains 46.27%** of all return variance — dominant market factor. GOOG one-sample t-test: p=**0.003** (reject H₀, 3,296 days). Eigendecomposition: λ₁ = 3× λ₂. Covariance heatmap, 95% CIs for all assets, rolling covariance and correlation stability analysis.
@@ -285,6 +309,17 @@ Systematic trading framework across **equities (AAPL), ETFs (SPY), crude oil fut
 ---
 
 ### ▌TIER IV — Portfolio Construction & Risk Management
+
+#### [`portfolio-optimiser`](https://github.com/Patience-Fuglo/portfolio-optimiser)
+
+Full portfolio optimization suite: Mean-Variance (Markowitz), Minimum Variance, Maximum Sharpe, Ledoit-Wolf shrinkage covariance, Black-Litterman with investor views, Hierarchical Risk Parity (HRP), and CVaR optimization. Walk-forward backtest with transaction cost modeling.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Black-Litterman](https://img.shields.io/badge/Black--Litterman-1a1a2e?style=flat-square)
+![HRP](https://img.shields.io/badge/HRP-0f3460?style=flat-square)
+![CVaR](https://img.shields.io/badge/CVaR-16213e?style=flat-square)
+
+---
 
 #### [`portfolio-risk-modeling-mpt-capm`](https://github.com/patience-fuglo/portfolio-risk-modeling-mpt-capm) — *Flagship Project*
 
